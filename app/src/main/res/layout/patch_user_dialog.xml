@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingHorizontal="32dp"
+    android:paddingVertical="32dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="280dp"
+        android:hint="Name"
+        android:inputType="text"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edMail"
+        android:layout_marginTop="12dp"
+        android:layout_width="280dp"
+        android:hint="Email"
+        android:inputType="text"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/checkboxUserStatus"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="IsActive"
+        android:layout_marginTop="12dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSaveAndPostUser"
+        android:layout_marginTop="24dp"
+        android:layout_width="280dp"
+        app:cornerRadius="12dp"
+        android:layout_height="50dp"
+        android:text="Create User"/>
+
+</LinearLayout>
